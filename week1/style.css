@@ -95,3 +95,7 @@ p, h2{
     transform: scale(1.1);
     transition: 0.3s;
 }
+footer{
+    background-color: rgb(70, 70, 117);
+    color: white;
+}
