@@ -1,57 +1,97 @@
-body{
-    background-color: #DCVE1D;
-    width: 85%;
-    margin: auto;
-    color: #00303b;
+html{
     font-family: Helvetica, Arial, sans-serif;
-}
-
-.header{
-    width: 100%;
-    height: 160px;
+    font-size: 18px;
+    color: rgb(70, 70, 117);
     text-align: center;
-    border-radius: 4px;
-    background-color: #dbbe5c;
-    
 }
-
+body {
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/61ct7wZeR7L._SY450_.jpg");
+    background-repeat: repeat;
+    line-height: 2;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    width: 25%;
+    margin: auto;
+    background-color: white;
+    padding:20px;
+  }
+.card:hover{
+    transform: scale(1.1);
+}
+.name {
+    font-weight: bold;
+    font-size: 1.5em;
+}
 .selfie{
-    height:100%;
-    float: left;
-    margin-left: 10px;
+    border-radius: 50%;
 }
-
-.info{
-    width: 100%;
-    background-color: #CAE4DB;
-    margin-top:0px;
-}
-
 .info, .lists{
-    text-align: center;
-    font-size: 1.2em;
-    line-height: 1.9em;
-    border-radius: 4px;
+    width: 70%;
+    border-top:1px solid black;
+    margin: 30px auto;
+    background-color: hsla(0, 0%, 100%, 0.7);
 }
-
-.lists{
-    float: left;
-    width: 50%;
-    background-color: rgb(142, 170, 164);
-    margin: 0px;
-    height: 100%;
-    border-top:2px solid #00303b;
-}
-
-h2, ul, p{
-    margin: 0px;
-}
-.info-p{
-    width: 80%;
+iframe{
     margin: auto;
 }
-section, header{
-    padding-top: 10px;
-    padding-bottom: 15px;
+p, h2{
+    margin: 0px;
 }
+.unbullet {
+    list-style: none;
+}
+.logo{
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+}
+@media screen and (max-width: 992px) {
+    iframe {
+      width: 400px;
+    }
+    .info, .lists{
+        width: 80%;
+        border-top:1px solid black;
+        margin: 25px auto;
+        background-color: hsla(0, 0%, 100%, 0.7);
+    }
+    .card{
+        width: 35%;
+      }
+  }
+@media screen and (max-width: 600px) {
+    iframe {
+      width: 300px;
+    }
+    .info, .lists{
+        width: 90%;
+        border-top:1px solid black;
+        margin: 15px auto;
+        background-color: hsla(0, 0%, 100%, 0.7);
+    }
+    .card{
+        width: 55%;
+      }
+  }
+@media screen and (max-width: 400px) {
+    iframe {
+      width: 280px;
+    }
+    .info, .lists{
+        width: 95%;
+        border-top:1px solid black;
+        margin: 10px auto;
+        background-color: hsla(0, 0%, 100%, 0.7);
+    }
+    .card{
+        width: 75%;
+      }
+  }
 
+.logo:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
