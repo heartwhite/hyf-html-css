@@ -141,7 +141,7 @@ li:hover {
 
     section .grid-item:nth-child(1), section .grid-item:nth-child(2) {
         width: 47%;
-        height: 350px; 
+        height: 380px; 
     }
 
     section .grid-item:nth-child(1) img, section .grid-item:nth-child(2) img{
