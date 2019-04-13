@@ -252,6 +252,9 @@ a{
     .showmenu{
         display: none;
     }
+    .footer-1-cnt a:hover{
+        text-decoration: underline;
+    }
     .sandwich{
         display: block;
         margin-right: 20px;
