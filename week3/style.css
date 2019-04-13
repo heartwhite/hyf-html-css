@@ -5,7 +5,7 @@ html{
 }
 body{
     margin: auto;
-    font-family: 'Arimo', sans-serif;
+    font-family: "aktiv-grotest-std",sans-serif;
     font-weight: normal;
     letter-spacing: 0px;
     background-image: url("back.jpg");
@@ -24,6 +24,7 @@ header{
 }
 .showmenu{
     font-size: 15px;
+    letter-spacing: -0.4px;
 }
 header a:hover, section a:hover{
     text-decoration: underline;
@@ -31,7 +32,7 @@ header a:hover, section a:hover{
 section{
     padding-top: 3%;
     padding-bottom: 4%;
-    font-weight: 300;
+    font-weight: 430;
 }
 .sandwich{
     display: none;
@@ -57,7 +58,7 @@ h1, h3{
 }
 h1{
     font-size: 19px;
-    font-weight: 300;
+    font-weight: 500;
 }
 h3{
     font-size: 0.85rem;
@@ -67,9 +68,10 @@ h3{
     max-width: 550px;
     font-size: 14px;
     letter-spacing: -0.5px;
-    line-height: 1.35;
+    line-height: 1.45;
     margin-right: 35px;
     display: unset;
+    font-weight: 400;
 }
 main{
     display: flex;
@@ -302,7 +304,6 @@ a{
         line-height: 1em;
         font-size: 1.05em;
     }
-    .footer-2-cnt a:hover{ text-decoration: underline;}
     section, header{
         margin-left: unset;
         padding-left: 2%;
