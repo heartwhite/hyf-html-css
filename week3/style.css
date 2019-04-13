@@ -53,7 +53,7 @@ section{
     ); 
 }
 h1, h3{
-    width: 34%;
+    min-width: 34% !important;
 }
 h1{
     font-size: 19px;
@@ -69,6 +69,7 @@ h3{
     letter-spacing: -0.5px;
     line-height: 1.35;
     margin-right: 35px;
+    display: unset;
 }
 main{
     display: flex;
@@ -342,7 +343,7 @@ a{
     main{height: 3600px;}
 }
 @media all and (max-width: 459px) and (min-width: 430px){
-    main{height: 3270px;}
+    main{height: 3260px;}
 }
 @media all and (max-width: 429px) and (min-width: 400px){
     main{height: 3135px;}
@@ -351,8 +352,8 @@ a{
     main{height: 3000px;}
 }
 @media all and (max-width: 400px){
-    main{height: 2700px;}
+    main{height: 2900px;}
 }
 @media all and (max-width: 320px){
-    main{height: 2300px;}
+    main{height: 2700px;}
 }
