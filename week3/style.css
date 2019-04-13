@@ -350,8 +350,9 @@ a{
 @media all and (max-width: 429px) and (min-width: 400px){
     main{height: 3000px;}
 }
-
-5248 8610 0735 3358
-02 22
-\222
-n ak
+@media all and (max-width: 400px){
+    main{height: 2700px;}
+}
+@media all and (max-width: 320px){
+    main{height: 2300px;}
+}
