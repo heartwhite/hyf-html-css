@@ -25,7 +25,7 @@ header{
 .showmenu{
     font-size: 15px;
 }
-header a:hover{
+header a:hover, section a:hover{
     text-decoration: underline;
 }
 section{
