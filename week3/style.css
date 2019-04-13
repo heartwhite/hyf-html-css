@@ -302,6 +302,7 @@ a{
         line-height: 1em;
         font-size: 1.05em;
     }
+    .footer-2-cnt a:hover{ text-decoration: underline;}
     section, header{
         margin-left: unset;
         padding-left: 2%;
